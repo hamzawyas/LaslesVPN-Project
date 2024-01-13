@@ -1,0 +1,16 @@
+.subscribe {
+  margin-bottom: 6.6rem;
+  display: flex;
+  gap: 30rem;
+  /* width: 114rem;
+  height: 24rem; */
+  background-color: var(--color-white);
+  border-radius: var(--default-radius);
+  padding: 5rem 7rem;
+  box-shadow: 0 4rem 3.9rem 0.2rem hsla(233, 48%, 10%, 0.063);
+}
+
+.subscribe-describtion {
+  font-weight: 400;
+  padding-top: var(--default-padding);
+}

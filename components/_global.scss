@@ -1,0 +1,26 @@
+.global {
+  justify-items: center;
+}
+
+.golbal-description {
+  text-align: center;
+  font-weight: 400;
+  line-height: 3rem;
+  padding-bottom: 5rem;
+}
+
+.golbal-img {
+  max-width: 100%;
+}
+
+.brands {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brand-img {
+  width: 19rem;
+  height: 6rem;
+}

@@ -1,0 +1,144 @@
+.testimonials {
+  padding-bottom: 6.5rem;
+}
+
+.testimonials-head {
+  text-align: center;
+}
+
+.testimonials-description {
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+
+.testimonials-content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: calc(var(--default-padding) * 2.5);
+  padding: 2rem 0;
+  overflow-x: hidden;
+  /* scroll-snap-type: x mandatory; */
+}
+
+.testimonial {
+  display: grid;
+  gap: var(--default-padding);
+  padding: var(--default-padding);
+  align-content: start;
+  margin-right: -2rem;
+  border-radius: var(--default-radius);
+  border: 0.2rem solid var(--color--pink);
+  &.testimonial:not(:nth-child(1)) {
+    border: 0.2rem solid #ddd;
+  }
+}
+
+.testimonial-img-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-name {
+  display: flex;
+  gap: var(--default-padding);
+  align-items: center;
+}
+
+.name-name {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--color-dark-blue);
+  padding-bottom: calc(var(--default-padding) / 4);
+  text-align: center;
+}
+
+.name-name-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.rate {
+  display: flex;
+  gap: calc(var(--default-padding) / 2);
+}
+
+.rate-num {
+  font-weight: 400;
+  color: var(--color-dark-blue);
+}
+
+.testimonial-words {
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--color-dark-blue);
+}
+
+.dots-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.dot {
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #dde0e4;
+  cursor: pointer;
+  transition: var(--transition-timing);
+  &:hover {
+    background-color: var(--color--pink);
+    transition: var(--transition-timing);
+  }
+  &:nth-child(1) {
+    width: 4.5rem;
+    background-color: var(--color--pink);
+    border-radius: 1.5rem;
+    &:hover {
+      border: 0.1rem solid var(--color--pink);
+      background-color: var(--color-of-white);
+    }
+  }
+}
+
+.arrows {
+  display: flex;
+  gap: var(--default-padding);
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  border: 0.2rem solid var(--color--pink);
+  border-radius: 50%;
+}
+
+.arrow-right {
+  color: var(--color-white);
+  background-color: var(--color--pink);
+  &:hover {
+    color: var(--color--pink);
+    background-color: var(--color-white);
+  }
+}
+
+.arrow-left {
+  color: var(--color--pink);
+  &:hover {
+    background-color: var(--color--pink);
+    color: var(--color-white);
+  }
+}

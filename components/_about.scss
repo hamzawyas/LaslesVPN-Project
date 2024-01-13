@@ -1,0 +1,47 @@
+.about {
+  padding: 0 10rem;
+}
+
+.about__data {
+  display: grid;
+  justify-items: start;
+  gap: calc(var(--default-padding) * 2);
+}
+
+.about__objective {
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.about__heading {
+  color: var(--color-dark-blue);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+
+.about__button {
+  width: 250px;
+  height: 60px;
+  background-color: var(--color--pink);
+  color: var(--color-white);
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  box-shadow: 0rem 4rem 3.9rem 0.2rem rgba(245, 56, 56, 0.35);
+  transition: var(--transition-timing);
+  &:hover {
+    color: var(--color--pink);
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-desaturated-pink);
+  }
+}
+
+.about__pic-content {
+  max-width: 100%;
+}
+
+.about__pic {
+  max-width: 100%;
+}
